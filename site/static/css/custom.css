@@ -20,6 +20,21 @@
     padding: 0;
 }
 
+.organizer-affiliation {
+    font-size: 0.8em;
+    font-style: italic;
+}
+
 .footer {
     padding-top: 5em;
+}
+
+.day-description {
+    font-size: 2.5em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+.schedule-tbl {
+    margin-bottom: 3em;
 }

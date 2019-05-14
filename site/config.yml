@@ -15,7 +15,6 @@ params:
   Address: "190 Doe Library, UC Berkeley Campus"
   City:  "Berkeley"
   State: "California"
-  Images: ["/img/badge.jpg"]
 #  GoogleMapsKey: "my-secret-maps-key"
 
   # Active sections on the website to deactivate comment out with '#'
@@ -65,8 +64,20 @@ params:
 
   # The entire schedule
   Schedule:
-    - name: "Check-in / Breakfast"
-      time: "9h00"
+    - day: "Wednesday (11 May)"
+      slots:
+        - name: "Check-in / Breakfast"
+          time: "09:00"
+
+    - day: "Thursday (12 May)"
+      slots:
+        - name: "Breakfast"
+          time: "09:00"
+
+    - day: "Friday (13 May)"
+      slots:
+        - name: "Breakfast"
+          time: "09:00"
 
     # - name: "Linus Torvalds"
     #   photo: "/img/speaker.jpg"
@@ -83,9 +94,11 @@ params:
   Organizers:
     - name: "Daniela Ushizima"
       affiliation: "Computational Research Division, LBNL"
-    - name: "Kevin Keys"
-      affiliation: "UCSF / UC Berkeley"
     - name: "Maryana Alegro"
       affiliation: "UCSF / UC Berkeley"
+    - name: "Kevin Keys"
+      affiliation: "UCSF / UC Berkeley"
+    - name: "Henry Pinkard"
+      affiliation: "UC Berkeley"
     - name: "Stéfan van der Walt"
       affiliation: "UC Berkeley"

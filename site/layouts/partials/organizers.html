@@ -9,7 +9,8 @@
         </span>
       {{ end }}
 
-      <h3 class="organizer-name">{{ .name }}
+      <h3 class="organizer-name">{{ .name }},
+        <span class="organizer-affiliation"> {{ .affiliation }} </span>
         {{ with .link }}
         <a href="{{ .href }}" title="{{ .text }}"> {{ .text }} </a>
         {{ end }}
