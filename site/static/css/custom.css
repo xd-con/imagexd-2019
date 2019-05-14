@@ -1,0 +1,25 @@
+.tagline {
+    padding-top: 1em;
+}
+
+.content ul {
+    font-size: 1.6em;
+    line-height: 1.6em;
+}
+
+.content li {
+    padding-bottom: 0.5em;
+    list-style-type: circle;
+    margin-left: 1em;
+}
+
+.organizer-item {
+    font-size: 0.3em;
+    list-style-type: none !important;
+    margin: 0;
+    padding: 0;
+}
+
+.footer {
+    padding-top: 5em;
+}

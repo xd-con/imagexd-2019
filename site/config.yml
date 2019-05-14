@@ -16,7 +16,7 @@ params:
   City:  "Berkeley"
   State: "California"
   Images: ["/img/badge.jpg"]
-  GoogleMapsKey: "my-secret-maps-key"
+#  GoogleMapsKey: "my-secret-maps-key"
 
   # Active sections on the website to deactivate comment out with '#'
   # you can also change order here and it will reflect on page
@@ -26,8 +26,8 @@ params:
     - speakers
     - schedule
     - sponsors
-    - partners
-    #- contact
+    - organizers
+#    - contact
 
   # Titles which you can translate to other languages
   Titles:
@@ -36,14 +36,13 @@ params:
     speakers: "Speakers"
     schedule: "Schedule"
     sponsors: "Sponsors"
-    partners: "Partners"
-    contact: "Contact"
+    organizers: "Organizers"
 
   # The Call To Action button at the header,
   # If you don't want this, just remove the callToAction property.
   CallToAction:
     text: "Applications Now Open"
-    link: "http://register.example.com"
+    link: "#"
 
   # Fork me on GitHub, if you don't want this, just remove the forkButton property
 #  ForkButton:
@@ -52,7 +51,7 @@ params:
   # List of Sponsors
   Sponsors:
     - name: "Berkeley Institute for Data Science"
-      logo: "/img/hugo.png"
+      logo: "/img/BIDS.png"
       url: "https://bids.berkeley.edu"
 
   # List of Partners
@@ -80,3 +79,13 @@ params:
     #     title: "Digging into a Linux Kernel"
     #     description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
     #     time: "10h00"
+
+  Organizers:
+    - name: "Daniela Ushizima"
+      affiliation: "Computational Research Division, LBNL"
+    - name: "Kevin Keys"
+      affiliation: "UCSF / UC Berkeley"
+    - name: "Maryana Alegro"
+      affiliation: "UCSF / UC Berkeley"
+    - name: "Stéfan van der Walt"
+      affiliation: "UC Berkeley"
