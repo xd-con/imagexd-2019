@@ -14,4 +14,4 @@ github: | clean html
 	  --committer "xd-web" \
 	  --message "Update website" \
 	  --force \
-	     ./site/public git@github.com:xd-con/imagexd-2018
+	     ./site/public git@github.com:xd-con/imagexd-2019
