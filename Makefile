@@ -1,4 +1,4 @@
-.PHONY: github
+.PHONY: github html clean serve
 
 html:
 	@cd site && hugo
@@ -6,6 +6,9 @@ html:
 
 serve:
 	@cd site && hugo --i18n-warnings server -D
+
+clean:
+	@rm -rf site/public
 
 github: | clean html
 	./push_dir_to_repo.py \
