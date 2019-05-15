@@ -64,17 +64,17 @@ params:
 
   # The entire schedule
   Schedule:
-    - day: "Wednesday (11 May)"
+    - day: "Wednesday (11 Sep)"
       slots:
         - name: "Check-in / Breakfast"
           time: "09:00"
 
-    - day: "Thursday (12 May)"
+    - day: "Thursday (12 Sep)"
       slots:
         - name: "Breakfast"
           time: "09:00"
 
-    - day: "Friday (13 May)"
+    - day: "Friday (13 Sep)"
       slots:
         - name: "Breakfast"
           time: "09:00"
@@ -93,7 +93,7 @@ params:
 
   Organizers:
     - name: "Daniela Ushizima"
-      affiliation: "Computational Research Division, LBNL"
+      affiliation: "LBNL / UC Berkeley"
     - name: "Maryana Alegro"
       affiliation: "UCSF / UC Berkeley"
     - name: "Kevin Keys"
