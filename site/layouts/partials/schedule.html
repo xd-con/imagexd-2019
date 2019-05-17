@@ -9,6 +9,7 @@
         <tr>
           <th class="schedule-time">Time</th>
           <th class="schedule-slot">Slot</th>
+          <th class="schedule-presenter">Presenter</th>
           <th class="schedule-description">Description</th>
         </tr>
       </thead>
@@ -33,7 +34,8 @@
             <tr class="schedule-other">
               <td class="schedule-time">{{ .time }}</td>
               <td class="schedule-slot">{{ .name }}</td>
-              <td class="schedule-description">-</td>
+              <td class="schedule-presenter">{{ .presenter }}</td>
+              <td class="schedule-description">{{ .description }}</td>
             </tr>
           {{ end }}
         {{ end }}
