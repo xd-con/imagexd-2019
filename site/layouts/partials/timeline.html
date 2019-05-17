@@ -1,0 +1,8 @@
+<h2 class="section-title">{{ .titles.timeline }}</h2>
+
+<ul class="date-list">
+  {{ range $event := .timeline }}
+  <li class="event-item"><span class="event-item-date">{{ .date }}</span>:
+    <span class="event-item-action">{{ .action }}</span></li>
+  {{ end }}
+</ul>

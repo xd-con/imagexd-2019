@@ -21,6 +21,7 @@ params:
   # you can also change order here and it will reflect on page
   Sections:
     - about
+    - timeline
     - location
     - speakers
     - schedule
@@ -36,6 +37,7 @@ params:
     schedule: "Schedule"
     sponsors: "Sponsors"
     organizers: "Organizers"
+    timeline: "Timeline"
 
   # The Call To Action button at the header,
   # If you don't want this, just remove the callToAction property.
@@ -61,6 +63,16 @@ params:
   #   - name: "BrazilJS"
   #     logo: "/img/partner.png"
   #     url: "http://braziljs.org"
+
+  Timeline:
+    - date: 25 May
+      action: Registration opens
+
+    - date: 25 June
+      action: Registration closes
+
+    - date: 10 July
+      action: Participant selection announced
 
   # The entire schedule
   Schedule:

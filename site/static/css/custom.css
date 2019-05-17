@@ -38,3 +38,7 @@
 .schedule-tbl {
     margin-bottom: 3em;
 }
+
+.event-item-date {
+    font-weight: bold;
+}
