@@ -105,7 +105,10 @@ params:
     - day: "Friday (13 Sep)"
       slots:
         - name: "Breakfast"
-          time: "09:00"
+          time: "09:00–09:15"
+        - name: "Imaging complex biological machines in action"
+          time: "09:15–10:45"   
+          presenter: "Carolyn Larabell"
 
     # - name: "Linus Torvalds"
     #   photo: "/img/speaker.jpg"
