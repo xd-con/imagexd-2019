@@ -65,13 +65,13 @@ params:
   #     url: "http://braziljs.org"
 
   Timeline:
-    - date: 25 May
+    - date: 28 May
       action: Registration opens
 
-    - date: 25 June
+    - date: 28 June
       action: Registration closes
 
-    - date: 10 July
+    - date: 12 July
       action: Participant selection announced
 
   # The entire schedule
