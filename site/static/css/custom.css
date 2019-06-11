@@ -25,6 +25,11 @@
     font-style: italic;
 }
 
+.organizer-list {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
 .footer {
     padding-top: 5em;
 }
@@ -41,4 +46,8 @@
 
 .event-item-date {
     font-weight: bold;
+}
+
+.sponsors-list {
+    padding-top: 1em;
 }
