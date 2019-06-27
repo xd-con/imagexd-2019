@@ -68,10 +68,10 @@ params:
     - date: 28 May
       action: Registration opens
 
-    - date: 28 June
+    - date: 18 July
       action: Registration closes
 
-    - date: 12 July
+    - date: 30 July
       action: Participant selection announced
 
   # The entire schedule
