@@ -101,6 +101,9 @@ params:
       slots:
         - name: "Breakfast"
           time: "09:00"
+        - name: "Spatiotemporally adaptive imaging with smart microscopy"
+          time: "09:15–10:45"   
+          presenter: "Loic Royer"
 
     - day: "Friday (13 Sep)"
       slots:
