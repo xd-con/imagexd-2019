@@ -68,8 +68,8 @@ params:
     - date: 28 May
       action: Registration opens
 
-    - date: 18 July
-      action: Registration closes
+    - date: 31 July
+      action: Registration closes (extended)
 
     - date: 30 July
       action: Participant selection announced
@@ -90,7 +90,7 @@ params:
           time: "12:30–14:00"
         - name: "Neural Networks"
           time: "14:00–15:30"
-          presenter: "TBA"
+          presenter: "Ariel Rokem"
         - name: "Tea break"
           time: "15:30–15:45"
         - name: "Volume Registration"
