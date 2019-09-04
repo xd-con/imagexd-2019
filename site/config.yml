@@ -21,7 +21,7 @@ params:
   Sections:
     - about
 #    - timeline
-    - speakers
+#    - speakers
     - schedule
     - location
     - sponsors
