@@ -10,21 +10,20 @@ params:
   Name: "ImageXD 2019"
   Description: "Images Across Domains"
   Date: "September 11–13"
-  # Price: "Only $100" # If your event is free, just comment this line
+  # Price: "Only $100"  # If your event is free, just comment this line
   Venue: "Berkeley Institute for Data Science"
   Address: "190 Doe Library, UC Berkeley Campus"
   City:  "Berkeley"
   State: "California"
-#  GoogleMapsKey: "my-secret-maps-key"
 
   # Active sections on the website to deactivate comment out with '#'
   # you can also change order here and it will reflect on page
   Sections:
     - about
-    - timeline
-    - location
+#    - timeline
     - speakers
     - schedule
+    - location
     - sponsors
     - organizers
 #    - contact
@@ -41,28 +40,15 @@ params:
 
   # The Call To Action button at the header,
   # If you don't want this, just remove the callToAction property.
-  CallToAction:
-    text: "Apply Now"
-    link: "https://forms.gle/KdML1iRTFBp1WpNx7"
-
-  # Fork me on GitHub, if you don't want this, just remove the forkButton property
-#  ForkButton:
-#    repository: "https://github.com/jweslley/hugo-conference/"
+#  CallToAction:
+#    text: "Apply Now"
+#    link: "https://forms.gle/KdML1iRTFBp1WpNx7"
 
   # List of Sponsors
   Sponsors:
     - name: "Berkeley Institute for Data Science"
       logo: "/img/BIDS.png"
       url: "https://bids.berkeley.edu"
-
-  # List of Partners
-  # Partners:
-  #   - name: "Hugo"
-  #     logo: "/img/hugo.jpg"
-  #     url: "https://gohugo.io"
-  #   - name: "BrazilJS"
-  #     logo: "/img/partner.png"
-  #     url: "http://braziljs.org"
 
   Timeline:
     - date: 28 May
@@ -78,7 +64,7 @@ params:
   Schedule:
     - day: "Wednesday (11 Sep)"
       slots:
-        - name: "Check-in / Breakfast"
+        - name: "— Check-in / Breakfast —"
           time: "09:00–09:15"
         - name: "scikit-image: Introduction"
           time: "09:15–10:45"
@@ -86,12 +72,12 @@ params:
         - name: "scikit-image: 3D Image Processing"
           time: "11:00–12:30"
           presenter: "Dani Ushizima, Alex de Siqueira"
-        - name: "Lunch"
+        - name: "— Lunch —"
           time: "12:30–14:00"
         - name: "Neural Networks"
           time: "14:00–15:30"
           presenter: "Ariel Rokem, Henry Pinkard"
-        - name: "Tea break"
+        - name: "— Tea break —"
           time: "15:30–15:45"
         - name: "Volume Registration"
           time: "16:00–17:30"
@@ -100,18 +86,73 @@ params:
     - day: "Thursday (12 Sep)"
       slots:
         - name: "Breakfast"
-          time: "09:00"
+          time: "08:50–09:00"
+        - name: "Welcome & logistics"
+          time: "09:00–09:15"
         - name: "Spatiotemporally adaptive imaging with smart microscopy"
-          time: "09:15–10:45"   
+          time: "09:15–9:45"
           presenter: "Loic Royer"
+        - name: ""
+          presenter: "Henry Pinkard"
+          time: "9:50–10:10"
+        - name: ""
+          presenter: "Kira Evans"
+          time: "10:10–10:30"
+        - name: ""
+          presenter: "Esther Rolf"
+          time: "10:30–10:45"
+        - name: "— Break —"
+          time: "10:45—11:10"
+        - name: ""
+          presenter: "Cedric Espenel"
+          time: "11:10–11:30"
+        - name: ""
+          presenter: "Pablo Damasceno"
+          time: "11:30–11:50"
+        - name: ""
+          presenter: "Tamas Nagy"
+          time: "11:50–12:05"
+        - name: ""
+          name: "— Lunch —"
+          time: "12:05–13:10"
+        - name: ""
+          name: "— Collaborative Work —"
+          time: "13:10—17:30"
 
     - day: "Friday (13 Sep)"
       slots:
         - name: "Breakfast"
-          time: "09:00–09:15"
+          time: "08:50–09:00"
         - name: "Imaging complex biological machines in action"
-          time: "09:15–10:45"   
+          time: "09:15–10:45"
           presenter: "Carolyn Larabell"
+        - name: ""
+          presenter: "Jeremy Maitin-Shepard"
+          time: "9:50–10:10"
+        - name: ""
+          presenter: "Dima Lituiev"
+          time: "10:10–10:30"
+        - name: ""
+          presenter: "Iris Young"
+          time: "10:30–10:45"
+        - name: "— Break —"
+          time: "10:45—11:10"
+        - name: ""
+          presenter: "Michael Kellman"
+          time: "11:10–11:30"
+        - name: ""
+          presenter: "Silvia Miramontes"
+          time: "11:30–11:50"
+        - name: ""
+          presenter: "Adam Anderson"
+          time: "11:50–12:05"
+        - name: ""
+          name: "— Lunch —"
+          time: "12:05–13:10"
+        - name: "— Collaborative Work —"
+          time: "13:10—16:00"
+        - name: "— Lightning Talks —"
+          time: "16:00—17:30"
 
     # - name: "Linus Torvalds"
     #   photo: "/img/speaker.jpg"
