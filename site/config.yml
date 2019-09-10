@@ -62,6 +62,14 @@ params:
     - date: 30 July
       action: Participant selection announced
 
+  EventLinks:
+    - title: "Schedule"
+      url: "#schedule"
+    - title: "Agenda & running notes"
+      url: "https://hackmd.io/m502u6NsQzGi1GaIyXMtnQ"
+    - title: "Proceedings"
+      url: "https://dani-lbnl.github.io/"
+
   # The entire schedule
   Schedule:
     - day: "Wednesday (11 Sep)"
