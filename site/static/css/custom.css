@@ -44,6 +44,10 @@
     margin-bottom: 3em;
 }
 
+.schedule-url {
+    font-weight: bold;
+}
+
 .event-item-date {
     font-weight: bold;
 }

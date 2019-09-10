@@ -35,7 +35,13 @@
           {{ else }}
             <tr class="schedule-other">
               <td class="schedule-time">{{ .time }}</td>
-              <td class="schedule-slot">{{ .name }}</td>
+              <td class="schedule-slot">
+                {{ if .url }}
+                <a href={{ .url }} class="schedule-url">{{ .name }}</a>
+                {{ else }}
+                {{ .name }}
+                {{ end }}
+              </td>
               <td class="schedule-presenter">{{ .presenter }}</td>
               <td class="schedule-description">{{ .description }}</td>
             </tr>
