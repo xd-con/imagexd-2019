@@ -41,7 +41,7 @@ params:
   # The Call To Action button at the header,
   # If you don't want this, just remove the callToAction property.
   CallToAction:
-    text: "Download Proceedings"
+    text: "Proceedings"
     link: "https://dani-lbnl.github.io/"
 
   # List of Sponsors
@@ -106,7 +106,7 @@ params:
         - name: "Microscopy image analysis"
           presenter: "Cedric Espenel"
           time: "11:10–11:30"
-        - name: ""
+        - name: "Lights! Camera! Extraction!"
           presenter: "Pablo Damasceno"
           time: "11:30–11:50"
         - name: "Working with multidimensional microscopy images in Julia"
