@@ -106,7 +106,7 @@ params:
         - name: "Microscopy image analysis"
           presenter: "Cedric Espenel"
           time: "11:10–11:30"
-        - name: "Lights! Camera! Extraction!"
+        - name: "Lights! Camera! Extraction! ML methods for when your data is ready for prime time"
           presenter: "Pablo Damasceno"
           time: "11:30–11:50"
         - name: "Working with multidimensional microscopy images in Julia"
