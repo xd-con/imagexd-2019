@@ -19,6 +19,7 @@ params:
   # Active sections on the website to deactivate comment out with '#'
   # you can also change order here and it will reflect on page
   Sections:
+    - during
     - about
 #    - timeline
 #    - speakers
@@ -30,6 +31,7 @@ params:
 
   # Titles which you can translate to other languages
   Titles:
+    during: "Welcome!"
     about: "About"
     location: "Location"
     speakers: "Speakers"
@@ -126,8 +128,8 @@ params:
         - name: "Imaging complex biological machines in action"
           time: "09:15–10:45"
           presenter: "Carolyn Larabell"
-        - name: "Tools for large-scale data visualization and storage"
-          presenter: "TBA"
+        - name: "Invited Talk, TBA"
+          presenter: "Matthew Rocklin"
           time: "9:50–10:10"
         - name: "Slideslicer: a package for manipulation of whole slide imaging and annotations"
           presenter: "Dima Lituiev"
