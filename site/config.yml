@@ -40,9 +40,9 @@ params:
 
   # The Call To Action button at the header,
   # If you don't want this, just remove the callToAction property.
-#  CallToAction:
-#    text: "Apply Now"
-#    link: "https://forms.gle/KdML1iRTFBp1WpNx7"
+  CallToAction:
+    text: "Download Proceedings"
+    link: "https://dani-lbnl.github.io/"
 
   # List of Sponsors
   Sponsors:
@@ -127,7 +127,7 @@ params:
           time: "09:15–10:45"
           presenter: "Carolyn Larabell"
         - name: "Tools for large-scale data visualization and storage"
-          presenter: "Jeremy Maitin-Shepard"
+          presenter: "TBA"
           time: "9:50–10:10"
         - name: "Slideslicer: a package for manipulation of whole slide imaging and annotations"
           presenter: "Dima Lituiev"
