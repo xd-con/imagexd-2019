@@ -42,9 +42,9 @@ params:
 
   # The Call To Action button at the header,
   # If you don't want this, just remove the callToAction property.
-  CallToAction:
-    text: "Proceedings"
-    link: "https://dani-lbnl.github.io/"
+#  CallToAction:
+#    text: "Apply Now"
+#    link: "https://forms.gle/KdML1iRTFBp1WpNx7"
 
   # List of Sponsors
   Sponsors:
