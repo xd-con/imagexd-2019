@@ -1,4 +1,4 @@
-.PHONY: github html clean serve
+.PHONY: github html clean serve poster
 
 html:
 	@cd site && hugo
@@ -18,3 +18,8 @@ github: | clean html
 	  --message "Update website" \
 	  --force \
 	     ./site/public git@github.com:xd-con/imagexd-2019
+
+poster:
+	cp poster/poster-header.md poster/poster.md
+	python ./tools/schedule_to_md.py >> poster/poster.md
+	pandoc poster/poster.md --pdf-engine=xelatex -H poster/preamble.tex -o poster/poster.pdf
