@@ -94,7 +94,7 @@ params:
         - name: "Neural Networks"
           time: "14:00–15:30"
           presenter: "Ariel Rokem, Henry Pinkard"
-          url: "https://colab.research.google.com/drive/1psx8wSTSMPrtybXPLscW1c78Bcu2hYxt"
+          url: "https://tinyurl.com/imagexd2019-convnets"
         - name: "— Tea break —"
           time: "15:30–15:45"
         - name: "Volume Registration"
