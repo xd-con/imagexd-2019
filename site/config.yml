@@ -69,6 +69,8 @@ params:
       url: "https://hackmd.io/m502u6NsQzGi1GaIyXMtnQ"
     - title: "Proceedings"
       url: "https://dani-lbnl.github.io/"
+    - title: "Code of Conduct"
+      url: "/code-of-conduct"
 
   # The entire schedule
   Schedule:
