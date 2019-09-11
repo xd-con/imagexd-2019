@@ -100,7 +100,7 @@ params:
         - name: "Volume Registration"
           time: "16:00–17:30"
           presenter: "Maryana Alegro, Matt McCormick"
-          url: "https://github.com/KitwareMedical/2019-ImageXD-Registration-Tutorial"
+          url: "https://github.com/KitwareMedical/2019-ImageXD-Registration-Tutorial/"
 
     - day: "Thursday (12 Sep)"
       slots:
