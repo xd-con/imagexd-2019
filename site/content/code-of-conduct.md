@@ -13,8 +13,8 @@ positive, inclusive, successful, and growing community.
 As members of the community,
 
 - We pledge to treat all people with respect and provide a harassment-
-  and bullying-free environment, regardless of sex, sexual orientation
-  and/or gender identity, disability, physical appearance, body size,
+  and bullying-free environment, regardless of sex, sexual orientation,
+  gender identity, disability, physical appearance, body size,
   race, nationality, ethnicity, and religion. In particular, sexual
   language and imagery, sexist, racist, or otherwise exclusionary
   jokes are not appropriate.
