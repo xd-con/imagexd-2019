@@ -1,0 +1,14 @@
+.tagline {
+    padding-top: 1em;
+}
+
+.content ul {
+    font-size: 1.6em;
+    line-height: 1.6em;
+}
+
+.content li {
+    padding-bottom: 0.5em;
+    list-style-type: circle;
+    margin-left: 1em;
+}

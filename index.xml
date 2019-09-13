@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ImageXD 2019</title>
+    <link>https://xd-con.org/imagexd-2019/</link>
+    <description>Recent content on ImageXD 2019</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	<atom:link href="https://xd-con.org/imagexd-2019/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Code of Conduct</title>
+      <link>https://xd-con.org/imagexd-2019/code-of-conduct/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://xd-con.org/imagexd-2019/code-of-conduct/</guid>
+      <description>The community of participants of ImageXD is made up of members from around the globe with a diverse set of skills, personalities, and experiences. It is through these differences that our community experiences success and continued growth. We expect everyone in our community to follow these guidelines when interacting with others both inside and outside of our community. Our goal is to keep ours a positive, inclusive, successful, and growing community.</description>
+    </item>
+    
+  </channel>
+</rss>
